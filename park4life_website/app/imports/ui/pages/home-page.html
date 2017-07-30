@@ -1,0 +1,50 @@
+<template name="Home_Page">
+
+  <img class="ui fluid image" src="/images/haleakala-parking.jpg"
+       style="z-index: -5; opacity: 0.5; position: absolute; display: block; width: 100vw; height: 100vh; object-fit: cover">
+
+  <div class="ui middle aligned centered grid text container"
+       style="font-style: italic; color: gray; padding-top: 15%;">
+    <h2>Save time. Get your life back.</h2>
+  </div>
+
+  <div style="margin-top: 1%; margin-bottom: 5.5%; margin-left: 0; margin-right: 0"
+       class="ui middle aligned centered grid container">
+
+    <div class="four wide column">
+      <div class="column"><h1 id="target">CUSTOMERS</h1></div>
+      <br><br>
+      <div class="column"><img class="ui fluid image" src="/images/customers.png"></div>
+      <div class="column"><br><br>
+        <img class="ui fluid image" src="/images/download-buttons.png">
+      </div>
+    </div>
+
+    <div class="five wide column" style="margin-left: 8%; margin-right: 8%">
+      <br>
+      <div class="column">
+        <form class="ui form">
+          <div class="field">
+            <input type="text" name="search" placeholder="Search for Parking">
+          </div>
+        </form>
+      </div>
+      <br><br>
+      <div class="column"><img class="ui medium image" src="/images/logo_image.png"></div>
+    </div>
+
+    <div class="four wide column">
+      <div class="column"><h1 id="target">SPONSORS</h1></div>
+      <br><br>
+      <div class="column"><img class="ui fluid image" src="/images/business.png"></div>
+      <div class="column"><br><br>
+        <div class="ui fluid black button">
+          <a class="{{ isActiveRoute 'Business_Page'}} item" href="{{ pathFor 'Business_Page' }}" style="color: white;">Business
+            Portal</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</template>
