@@ -1,14 +1,46 @@
 <template name="Home_Page">
-  <div class="ui middle aligned centered grid text container">
+
+  <img class="ui fluid image" src="/images/haleakala-parking.jpg"
+       style="z-index: -5; opacity: 0.5; position: absolute; display: block; width: 100vw; height: 100vh; object-fit: cover">
+
+  <div class="ui middle aligned centered grid text container" style="font-style: italic; color: gray; margin-top: 4%">
+    <h2>Insert some fancy one-liner or selling point here!</h2>
+  </div>
+
+  <div style="margin-top: 5%; margin-bottom: 5%; margin-left: 0; margin-right: 0"
+       class="ui middle aligned centered grid container">
 
     <div class="four wide column">
-      <img class="ui small circular image" src="/images/meteor-logo.png"/>
+      <div class="column"><h1>CUSTOMERS</h1></div>
+      <br><br>
+      <div class="column"><img class="ui fluid image" src="/images/customers.png"></div>
+      <div class="column"><br><br>
+        <button class="ui fluid black button" type="submit" href=#>Download the App</button>
+      </div>
     </div>
 
-    <div class="eight wide column">
-      <h1>Welcome to this template</h1>
-      <p>Now get to work and modify this app!</p>
+    <div class="five wide column" style="margin-left: 8%; margin-right: 8%">
+      <br>
+      <div class="column">
+        <form class="ui form">
+          <div class="field">
+            <input type="text" name="search" placeholder="Search for Parking">
+          </div>
+        </form>
+      </div>
+      <br><br>
+      <div class="column"><img class="ui fluid image" src="/images/parking.png"></div>
+    </div>
+
+    <div class="four wide column">
+      <div class="column"><h1>SPONSORS</h1></div>
+      <br><br>
+      <div class="column"><img class="ui fluid image" src="/images/business.png"></div>
+      <div class="column"><br><br>
+        <button class="ui fluid black button" type="submit" href=#>Business Portal</button>
+      </div>
     </div>
 
   </div>
+
 </template>
