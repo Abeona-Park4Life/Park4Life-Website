@@ -1,22 +1,12 @@
 <template name="Business_Page">
 
-  <div style="padding-top: 12%; margin-bottom: 4%;"
+  <img class="ui fluid image" src="/images/haleakala-parking.jpg"
+       style="z-index: -5; opacity: 0.2; position: absolute; display: block; width: 100vw; height: 100vh; object-fit: cover">
+
+  <div style="padding-top: 12%; margin-bottom: 6%;"
        class="ui middle aligned centered grid container">
 
-    <div class="four wide column">
-      <div class="column"><h1 id="target">STATISTICS</h1></div>
-      <br><br>
-      <div class="column"><img class="ui large centered rounded image" src="/images/revenue.png"></div>
-    </div>
-
-    <div class="five wide column">
-      <div class="column"><h1 id="target">HISTORY & PROJECTION</h1></div>
-      <br><br>
-      <div class="column"><img class="ui large centered rounded image" src="/images/revenue.png"></div>
-    </div>
-
-
-    <div class="four wide left aligned column" style="margin-top: 2%; padding-top: 4%;">
+    <div class="four wide left aligned column" style="margin-top: 2%; padding-top: 2%;">
 
       <div class="ui massive compact vertical inverted menu">
 
@@ -49,6 +39,28 @@
 
     </div>
 
+    <div class="ten wide column" style="padding-top:3%; padding-left:4%;">
+      <div class="centered column">
+        <div class="ui statistics">
+          <div class="statistic">
+            <div class="value">9,000</div>
+            <div class="label">Total Customers</div>
+          </div>
+          <div class="statistic">
+            <div class="value">+729</div>
+            <div class="label">New Customers</div>
+          </div>
+          <div class="statistic">
+            <div class="value">$42,000</div>
+            <div class="label">Revenue</div>
+          </div>
+        </div>
+        <br><br>
+        <img class="ui fluid centered rounded image" src="/images/revenue_park4life_plus.png">
+      </div>
+    </div>
+
   </div>
+
 
 </template>
